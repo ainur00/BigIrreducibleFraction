@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../headerFiles/BigInt.h
+iostream
+-
+vector
+-
+string
+-
+
+../headerFiles/BigIrreducibleFraction.h
+BigInt.h
+-
+
+/home/user/Documents/study/cpp/BigIrreducibleFraction/sourceFiles/main.cpp
+BigIrreducibleFraction.h
+-
+

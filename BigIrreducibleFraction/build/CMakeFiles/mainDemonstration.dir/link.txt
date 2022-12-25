@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/mainDemonstration.dir/sourceFiles/main.cpp.o  -o mainDemonstration 
